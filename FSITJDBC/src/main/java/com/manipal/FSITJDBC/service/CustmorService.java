@@ -6,5 +6,6 @@ import com.manipal.FSITJDBC.model.Coustomer;
 
 public interface CustmorService {
 	public List<Coustomer> getCoustomer();
+	
 
 }

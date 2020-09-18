@@ -37,6 +37,10 @@ public class Coustomer {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
+	public String toString()
+	{
+		return "CoustomerId: "+ this.coustomerId + "\nFirstName: "+this.getFirstName();
+		
+	}
 
 }
