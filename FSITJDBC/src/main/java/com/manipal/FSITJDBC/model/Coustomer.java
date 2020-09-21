@@ -7,6 +7,22 @@ public class Coustomer {
 	private String lastName;
 	private String email;
 	private String password;
+	
+	public Coustomer()
+	{
+		
+	}
+	
+	
+	public Coustomer(int coustomerId, String firstName, String lastName, String email, String password) {
+		super();
+		this.coustomerId = coustomerId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.password = password;
+	}
+	
 	public int getCoustomerId() {
 		return coustomerId;
 	}
